@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oxcartt | Loja Country</title>
+  <meta name="description" content="Oxcartt: moda country com estilo e durabilidade. Botas, camisas, jeans e acessórios." />
+  <meta name="theme-color" content="#0f0f0f" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#" aria-label="Página inicial Oxcartt">
+        <img class="brand__logo" src="img/LOGO - VETORIZADA.png" alt="Oxcartt" onerror="this.style.display='none'; this.parentElement.querySelector('.brand__fallback').style.display='block';" />
+        <span class="brand__fallback" style="display:none;">Oxcartt</span>
+        <span class="brand__registered" aria-hidden="true">&reg;</span>
+      </a>
+
+      <nav class="nav" aria-label="Menu principal">
+        <button class="nav__toggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="nav__toggleLine"></span>
+          <span class="nav__toggleLine"></span>
+          <span class="nav__toggleLine"></span>
+          <span class="sr-only">Abrir menu</span>
+        </button>
+
+        <ul id="navMenu" class="nav__menu">
+          <li><a href="#colecao">Coleção</a></li>
+          <li><a href="#categorias">Categorias</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#depoimentos">Vendedores</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn--primary header__cta" href="#contato">Comprar agora</a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <div class="carousel" aria-label="Fotos e informativos">
+          <div class="carousel__track" id="heroCarousel">
+            <article class="carousel__slide slide--1 is-active">
+              <div class="carousel__overlay">
+                <h3>Desde 2009</h3>
+                <p>Aqui o sistema é bruto, rústico e sistemático.</p>
+              </div>
+            </article>
+            <article class="carousel__slide slide--2">
+              <div class="carousel__overlay">
+                <h3>Estilo country no dia a dia</h3>
+                <p>Peças pensadas para conforto e presenca.</p>
+              </div>
+            </article>
+          </div>
+          <div class="carousel__dots" role="tablist" aria-label="Selecionar banner">
+            <button class="carousel__dot is-active" data-slide="0" aria-label="Slide 1"></button>
+            <button class="carousel__dot" data-slide="1" aria-label="Slide 2"></button>
+          </div>
+        </div>
+
+        <div class="hero__copy">
+          <p class="badge">Loja Country • Brasil</p>
+          <h1>Country de verdade.<br/>Estilo que sustenta tradição.</h1>
+          <p class="lead">
+            Peças selecionadas: botas, camisas, jeans e acessórios pra quem vive o lifestyle country.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#colecao">Ver coleção</a>
+            <a class="btn btn--ghost" href="#depoimentos">Chamar no WhatsApp</a>
+          </div>
+          <ul class="hero__highlights" role="list">
+            <li>Envio para todo o Brasil</li>
+            <li>Formação de Chapéus</li>
+            <li>Fabricação própria</li>
+            <li>Para todas as idades</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CATEGORIAS -->
+    <section id="categorias" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Categorias</h2>
+          <p>Escolha seu estilo e monte o look completo.</p>
+        </div>
+
+        <div class="grid grid--4" id="categoriesList">
+          <a class="category-image" href="#colecao" aria-label="Categoria 1">
+            <img src="img/categories/1.png" alt="Categoria 1" />
+          </a>
+          <a class="category-image" href="#colecao" aria-label="Categoria 2">
+            <img src="img/categories/2.png" alt="Categoria 2" />
+          </a>
+          <a class="category-image" href="#colecao" aria-label="Categoria 3">
+            <img src="img/categories/3.png" alt="Categoria 3" />
+          </a>
+          <a class="category-image" href="#colecao" aria-label="Categoria 4">
+            <img src="img/categories/4.png" alt="Categoria 4" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- COLEÇÃO / PRODUTOS -->
+    <section id="colecao" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2>Destaques da coleção</h2>
+          <p>Conheça mais looks no nosso catálogo pelo WhatsApp</p>
+        </div>
+
+        <div class="grid grid--4" id="collectionHighlights">
+          <!-- Produto 1 -->
+          <article class="product">
+            <div class="product__img" aria-hidden="true"></div>
+            <div class="product__body">
+              <h3>Bota Couro Premium</h3>
+              <p class="product__meta">Marrom • Do 37 ao 44</p>
+              <div class="product__row">
+                <span class="product__price">R$ 399,90</span>
+                <button class="btn btn--small btn--ghost"
+                  data-whats="Olá! Quero a Bota Couro Premium. Tem tamanho disponível?">Comprar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product">
+            <div class="product__img" aria-hidden="true"></div>
+            <div class="product__body">
+              <h3>Camisa Xadrez Clássica</h3>
+              <p class="product__meta">Vermelha • P ao GG</p>
+              <div class="product__row">
+                <span class="product__price">R$ 129,90</span>
+                <button class="btn btn--small btn--ghost"
+                  data-whats="Olá! Quero a Camisa Xadrez Clássica. Tem tamanho disponível?">Comprar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product">
+            <div class="product__img" aria-hidden="true"></div>
+            <div class="product__body">
+              <h3>Cinto Fivela Western</h3>
+              <p class="product__meta">Preto • Ajustável</p>
+              <div class="product__row">
+                <span class="product__price">R$ 89,90</span>
+                <button class="btn btn--small btn--ghost"
+                  data-whats="Olá! Quero o Cinto Fivela Western. Pode me passar mais detalhes?">Comprar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product">
+            <div class="product__img" aria-hidden="true"></div>
+            <div class="product__body">
+              <h3>Chapéu Feltro Country</h3>
+              <p class="product__meta">Bege • M ao GG</p>
+              <div class="product__row">
+                <span class="product__price">R$ 159,90</span>
+                <button class="btn btn--small btn--ghost"
+                  data-whats="Olá! Quero o Chapéu Feltro Country. Tem tamanhos e cores?">Comprar</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="section">
+      <div class="container about">
+        <div>
+          <h2>Sobre a Oxcartt</h2>
+          <p>
+            Somos uma marca registrada presente no mercado desde 2009 prezando por qualidade, preço justo e tradição.
+          </p>
+        </div>
+
+        <div class="about__box">
+          <h3>Envio por Correios e Aplicativo</h3>
+          <p>Envio para todo o Brasil.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- VENDEDORES -->
+    <section id="depoimentos" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2>Quem atende voce</h2>
+          <p>Conheca o time que ajuda voce a montar seu look country.</p>
+        </div>
+
+        <div class="grid grid--3" id="sellersList"></div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="section">
+      <div class="container contact">
+        <div>
+          <h2>Onde Estamos</h2>
+          <p>Confira os endereços das nossas unidades no mapa e fale com a equipe no WhatsApp.</p>
+          
+          <div class="contact__info">
+            <p><strong>Horário:</strong> Seg–Sáb, 9h–18h</p>
+            <p><strong>Endereço 1:</strong> <span id="address1">Av. da Paz, Quadra 138 - Lote 01 - St. Garavelo, Aparecida de Goiânia - GO, 74930-570</span></p>
+            <p><strong>Endereço 2:</strong> <span id="address2">Av. Goiás, Quadra 42c, Lote 10 - Jardim Cabral, Itaberaí - GO, 76630-000</span></p>
+            <p><strong>Instagram:</strong> <a href="https://instagram.com/oxcartt" target="_blank" rel="noopener noreferrer">@oxcartt</a>, <a href="https://instagram.com/oxcartt_itaberai" target="_blank" rel="noopener noreferrer">@oxcartt_itaberai</a></p>
+          </div>
+        </div>
+
+        <div class="maps">
+          <article class="map-card">
+            <h3>Unidade Garavelo</h3>
+            <iframe
+              class="map-frame"
+              id="map1"
+              title="Mapa da unidade 1"
+              data-query=""
+              data-label="Oxcartt Jeans"
+              data-lat="-16.76937485054242"
+              data-lng="-49.33095035273911"
+              data-zoom="17"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src=""></iframe>
+          </article>
+          <article class="map-card">
+            <h3>Unidade Itaberaí</h3>
+            <iframe
+              class="map-frame"
+              id="map2"
+              title="Mapa da unidade 2"
+              data-query=""
+              data-label="Oxcartt Jeans Itaberaí"
+              data-lat="-16.029923018005675"
+              data-lng="-49.79644859019316"
+              data-zoom="17"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Avenida%20Exemplo%2C%20456%20-%20Bairro%2C%20Sua%20Cidade%20-%20UF&output=embed"></iframe>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <div class="footer__brand" aria-label="Marca Oxcartt">
+          <img class="footer__logo" src="img/LOGO - VETORIZADA.png" alt="Oxcartt" onerror="this.style.display='none'; this.parentElement.querySelector('.footer__fallback').style.display='block';" />
+          <span class="footer__fallback" style="display:none;">Oxcartt</span>
+          <span class="footer__registered" aria-hidden="true">&reg;</span>
+        </div>
+        <p class="muted">Moda country • Brasil</p>
+      </div>
+      <div class="footer__links">
+        <a href="#sobre">Sobre</a>
+        <a href="#colecao">Coleção</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <div class="muted">© <span id="year"></span> Oxcartt. Todos os direitos reservados.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

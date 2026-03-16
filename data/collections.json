@@ -1,0 +1,42 @@
+[
+  {
+    "category": "CowGirls",
+    "categoryImage": "img/categories/1.png",
+    "highlights": [
+      { "img": "img/categories/cowgirl/1.jpg" },
+      { "img": "img/categories/cowgirl/2.jpg" },
+      { "img": "img/categories/cowgirl/3.jpeg" },
+      { "img": "img/categories/cowgirl/4.jpeg" }
+    ]
+  },
+  {
+    "category": "CowBoys",
+    "categoryImage": "img/categories/2.png",
+    "highlights": [
+      { "img": "img/categories/cowboy/1.jpg" },
+      { "img": "img/categories/cowboy/2.jpg" },
+      { "img": "img/categories/cowboy/3.jpg" },
+      { "img": "img/categories/cowboy/4.jpg" }
+    ]
+  },
+  {
+    "category": "Kids",
+    "categoryImage": "img/categories/3.png",
+    "highlights": [
+      { "img": "img/categories/kids/3.jpeg" },
+      { "img": "img/categories/kids/4.jpeg" },
+      { "img": "img/categories/kids/1.jpg" },
+      { "img": "img/categories/kids/2.jpeg" }
+    ]
+  },
+  {
+    "category": "Accessories",
+    "categoryImage": "img/categories/4.png",
+    "highlights": [
+      { "img": "img/categories/accessories/4.jpg" },
+      { "img": "img/categories/accessories/3.jpg" },
+      { "img": "img/categories/accessories/2.jpg" },
+      { "img": "img/categories/accessories/1.jpg" }
+    ]
+  }
+]
