@@ -2,32 +2,32 @@
   {
     "name": "SM Hats",
     "description": "Especialista em modelagem de chapéus, ajustando aba, copa e acabamento para deixar cada peça com caimento perfeito e identidade única.",
-    "img-source": "/vendedor-joao.jpg",
+    "img-source": "img/sellers/samuel.JPEG",
     "whastapp": "5562993710147"
   },
   {
     "name": "Thiemilly",
-    "img-source": "/vendedor-luiza.jpg",
+    "img-source": "img/sellers/luiza.JPEG",
     "whastapp": "5562985113556"
   },
   {
     "name": "Geovanna",
-    "img-source": "/vendedor-luiza.jpg",
+    "img-source": "img/sellers/geovanna.png",
     "whastapp": "5562985113556"
   },
   {
     "name": "Dalila",
-    "img-source": "/vendedor-luiza.jpg",
+    "img-source": "img/sellers/dalila.png",
     "whastapp": "5562984824653"
   },
   {
     "name": "Victor",
-    "img-source": "/vendedor-luiza.jpg",
+    "img-source": "img/sellers/victor.JPEG",
     "whastapp": "556235428406"
   },
   {
     "name": "Itaberaí",
-    "img-source": "/vendedor-luiza.jpg",
+    "img-source": "img/sellers/itaberaI.JPEG",
     "whastapp": "5562985585994"
   }
 ]
