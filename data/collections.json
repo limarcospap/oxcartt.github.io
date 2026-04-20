@@ -5,8 +5,8 @@
     "highlights": [
       { "img": "img/categories/cowgirl/1.jpg" },
       { "img": "img/categories/cowgirl/2.jpg" },
-      { "img": "img/categories/cowgirl/3.jpeg" },
-      { "img": "img/categories/cowgirl/4.jpeg" }
+      { "img": "img/categories/cowgirl/3.JPEG" },
+      { "img": "img/categories/cowgirl/4.JPEG" }
     ]
   },
   {
@@ -23,10 +23,10 @@
     "category": "Kids",
     "categoryImage": "img/categories/3.png",
     "highlights": [
-      { "img": "img/categories/kids/3.jpeg" },
-      { "img": "img/categories/kids/4.jpeg" },
+      { "img": "img/categories/kids/3.JPEG" },
+      { "img": "img/categories/kids/4.JPEG" },
       { "img": "img/categories/kids/1.jpg" },
-      { "img": "img/categories/kids/2.jpeg" }
+      { "img": "img/categories/kids/2.JPEG" }
     ]
   },
   {
